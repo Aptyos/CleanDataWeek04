@@ -1,9 +1,6 @@
 CodeBook.md
 
-1/ Directories tree structure from the original download was kept for clarity.
-However, directories "Inertial Signals" and their contents were removed as not needed 
-
-2/ extraction criteria
+###### extraction criteria
 Only variable calculating the mean and the standard deviation from the one collected were extracted:
 -  According to the information provided, mean and standard deviation were respectively identified by including the labels "mean()" and "std()" in the name of variables.
 
@@ -14,9 +11,9 @@ Only variable calculating the mean and the standard deviation from the one colle
  - tBodyGyroMean
  - tBodyGyroJerkMean
 
-##### The columns activity and subject_id where added (binded) from the subject_[test|data].txt and y_[test|data].txt files to their respective dataset ( test and data) before "merging".
+C The columns activity and subject_id where added (binded) from the subject_[test|data].txt and y_[test|data].txt files to their respective dataset ( test and data) before "merging".
 
-##### The Extraction of the measurements on the mean and standard deviation was performed from the features.txt file
+###### The Extraction of the measurements on the mean and standard deviation was performed from the features.txt file
 and was based on the patterns:
   _std()_ and _mean()_
 Columns names were subsequently modified as indicated:
