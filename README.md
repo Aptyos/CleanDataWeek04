@@ -53,11 +53,10 @@ the initial datasets were obtained by downloading the file:
    and an independent tidy dataset "grp_result" 
       - created from the previous "result_data" dataset with the average of each variable for each activity and each subject.
 
-
-####  each record is a 8-variable vector with. 
-	- an activity label, 
-        - an identifier of the subject who carried out the experiment
-        - 66 time and frequency domain variables restricted to mean and standard deviation
+####  each record is a 68-variable vector with. 
+- an activity label 
+- an identifier of the subject who carried out the experiment
+- 66 time and frequency domain variables restricted to mean and standard deviation
 
 #### The following files are included:
 - 'README.txt'
