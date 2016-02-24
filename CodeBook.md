@@ -8,11 +8,11 @@ Only variable calculating the mean and the standard deviation from the one colle
 -  According to the information provided, mean and standard deviation were respectively identified by including the labels "mean()" and "std()"
    in the name of variables.
    These vectors were excluded as they are only used on the angle() variable:
-     gravityMean
-     tBodyAccMean
-     tBodyAccJerkMean
-     tBodyGyroMean
-     tBodyGyroJerkMean
+    - gravityMean
+    - tBodyAccMean
+    - tBodyAccJerkMean
+    - tBodyGyroMean
+    - tBodyGyroJerkMean
 
 ##### 1/ adding activity and subject_id columns to each dataset before "merging".
 
@@ -20,5 +20,5 @@ Only variable calculating the mean and the standard deviation from the one colle
 ##### 2/ Extracts the measurements on the mean and standard deviation  for each measurement.
 from the features.txt file
 - The label "mean()" is replaced by Mean
-- ......... "std()"  is replaced by Std
+- The label "std()"  is replaced by Std
 - Dashes in the variable names were removed as they can affect later data manipulation
