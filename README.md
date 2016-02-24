@@ -48,7 +48,7 @@ Its range is from 2 to 24.
 ####  Execution of the script "run_analysis.R"  in RStudio or RGui with the folloinwg directives:
 - set the working directory above the one containing the "test" and "train" directories:
 - download the "run_analysis.R"  script in the session directory and execute it with:
-      source("run_analysis.R") 
+      - source("run_analysis.R") 
 
 Will first produces the dataset "result_data" following the ordered steps below:
 - assembling the test and train datasets,
