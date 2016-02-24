@@ -7,7 +7,7 @@ However, directories "Inertial Signals" and their contents were removed as not n
 Only variable calculating the mean and the standard deviation from the one collected were extracted:
 -  According to the information provided, mean and standard deviation were respectively identified by including the labels "mean()" and "std()" in the name of variables.
 
-These vectors were excluded as they are only used on the angle() variable:
+- These vectors were excluded as they are only used on the angle() variable:
     - gravityMean
     - tBodyAccMean
     - tBodyAccJerkMean
