@@ -7,17 +7,17 @@ However, directories "Inertial Signals" and their contents were removed as not n
 Only variable calculating the mean and the standard deviation from the one collected were extracted:
 -  According to the information provided, mean and standard deviation were respectively identified by including the labels "mean()" and "std()" in the name of variables.
 
-- These vectors were excluded as they are only used on the angle() variable:
-    - gravityMean
-    - tBodyAccMean
-    - tBodyAccJerkMean
-    - tBodyGyroMean
-    - tBodyGyroJerkMean
+- These vectors were excluded as they are only used on the angle() variable:    
+ - gravityMean
+ - tBodyAccMean
+ - tBodyAccJerkMean
+ - tBodyGyroMean
+ - tBodyGyroJerkMean
 
-##### 1/ adding activity and subject_id columns to each dataset before "merging".
+##### The columns activity and subject_id where added (binded) from the subject_[test|data].txt and y_[test|data].txt files to their respective dataset ( test and data) before "merging".
 
-
-##### 2/ Extracts the measurements on the mean and standard deviation  for each measurement.
+##### The Extraction of the measurements on the mean and standard deviation was base on the patterns:
+  _std()_ and mean()_
 from the features.txt file
 - The label "mean()" is replaced by Mean
 - The label "std()"  is replaced by Std
