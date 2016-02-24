@@ -35,14 +35,21 @@ Week04 Assignment of the Data Cleaning course
 ####  Download the files to a chosen directory
 the initial datasets were obtained by downloading the file:
 [Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-
+Only the following files ( with their directory) will be required to generate the new dataset:
+- train/X_train.txt: Original Training set.
+- train/y_train.txt: Original Training labels.
+- train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. 
+Its range is from 1 to 30.
+- test/X_test.txt: Original Test set.
+- test/y_test.txt: Original Test labels.
+- test/subject_test.txt:   Each row identifies the subject who performed the activity for each window sample. 
+Its range is from 2 to 24.
 
 ####  Execution of the script "run_analysis.R"  in RStudio or RGui 
    with the folloinwg commands:
-       - set the session to the current directory:
-       setwd("C:/Coursera/03_dataCleaning/week04/CoursePjt/gitResults")
-       - execute the script:
-       source('./gitResults/run_analysis.R') 
+       - set the working directory above the one containing the "test" and "train" directories:
+       - download the "run_analysis.R"  script in the session directory and execute it with:
+       source("run_analysis.R") 
 
    first produces the dataset "result_data" following the ordered steps below:
       - assembling the test and train datasets,
@@ -61,12 +68,5 @@ the initial datasets were obtained by downloading the file:
 #### The following files are included:
  The required files( and directories) to execute succesfully the script "run_analysis.R" :
 - new_features_info.txt: Shows information about the variables used on the feature vector.
-- features.txt: List of all features.
-- train/X_train.txt: Original Training set.
-- train/y_train.txt: Original Training labels.
-- train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. 
-Its range is from 1 to 30.
-- test/X_test.txt: Original Test set.
-- test/y_test.txt: Original Test labels.
-- test/subject_test.txt:   Each row identifies the subject who performed the activity for each window sample. 
-Its range is from 2 to 24.
+
+
