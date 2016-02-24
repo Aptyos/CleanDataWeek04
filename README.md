@@ -60,16 +60,15 @@ the initial datasets were obtained by downloading the file:
 
 #### The following files are included:
 - 'README.txt'
+ The required files( and directories) to execute succesfully the script "run_analysis.R" :
+- new_features_info.txt: Shows information about the variables used on the feature vector.
+- features.txt: List of all features.
 
-required files( and directories) to execute succesfully the script "run_analysis.R" :
-- 'new_features_info.txt': Shows information about the variables used on the feature vector.
-- 'features.txt': List of all features.
+- train/X_train.txt: Original Training set.
+- train/y_train.txt: Original Training labels.
+- train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-- 'train/X_train.txt': Original Training set.
-- 'train/y_train.txt': Original Training labels.
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- test/X_test.txt: Original Test set.
+- test/y_test.txt: Original Test labels.
 
-- 'test/X_test.txt': Original Test set.
-- 'test/y_test.txt': Original Test labels.
->>>>>>> 64bf81534ec07c1292f55c32a477547a580e9ed0
-- 'test/subject_test.txt':   Each row identifies the subject who performed the activity for each window sample. Its range is from 2 to 24.
+- test/subject_test.txt:   Each row identifies the subject who performed the activity for each window sample. Its range is from 2 to 24.
