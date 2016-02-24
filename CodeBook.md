@@ -18,8 +18,6 @@ Only variable calculating the mean and the standard deviation from the one colle
 
 
 ###### The Extraction of the appropriate column names was performed from the features.txt file
-and was based on the patterns:
-  _std()_ and _mean()_
 Columns names were subsequently modified as indicated:
 - The label "mean()" is replaced by Mean
 - The label "std()"  is replaced by Std
