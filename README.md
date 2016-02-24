@@ -45,28 +45,26 @@ Its range is from 1 to 30.
 - test/subject_test.txt:   Each row identifies the subject who performed the activity for each window sample. 
 Its range is from 2 to 24.
 
-####  Execution of the script "run_analysis.R"  in RStudio or RGui 
-   with the folloinwg directives:
-      - set the working directory above the one containing the "test" and "train" directories:
-      - download the "run_analysis.R"  script in the session directory and execute it with:
+####  Execution of the script "run_analysis.R"  in RStudio or RGui with the folloinwg directives:
+- set the working directory above the one containing the "test" and "train" directories:
+- download the "run_analysis.R"  script in the session directory and execute it with:
       source("run_analysis.R") 
 
-   first produces the dataset "result_data" following the ordered steps below:
-      - assembling the test and train datasets,
-      - extracting only mean and standard deviation
-      - using descriptive activity names to name the activities in the data set
-      - labelling the data set with descriptive variable names.
+Will first produces the dataset "result_data" following the ordered steps below:
+- assembling the test and train datasets,
+- extracting only mean and standard deviation
+- using descriptive activity names to name the activities in the data set
+- labelling the data set with descriptive variable names.
 
-   and an independent tidy dataset "grp_result" 
-      - created from the previous "result_data" dataset with the average of each variable for each activity and each subject.
+Then an independent tidy dataset "grp_result" 
+- created from the previous "result_data" dataset with the average of each variable for each activity and each subject.
 
-####  each record is a 68-variable vector with. 
+####  each resuling record is a 68-variable vector with. 
 - an activity label 
 - an identifier of the subject who carried out the experiment
 - 66 time and frequency domain variables restricted to mean and standard deviation
 
-#### The following files are included:
- The required files( and directories) to execute succesfully the script "run_analysis.R" :
-- new_features_info.txt: Shows information about the variables used on the feature vector.
+#### The following file is also included:
+- new_features_info.txt: Shows information about the variables used on the feature vector with new names
 
 
