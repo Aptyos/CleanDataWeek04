@@ -1,10 +1,10 @@
-###### for merging
+###### For merging
 The columns activity and subject_id where added (binded) to their respective dataset (test and data) 
 from the files:
    - subject_[test|data].txt 
    - y_[test|data].txt  
 
-###### extraction criteria
+###### Extraction criteria
 Only variable calculating the mean and the standard deviation from the one collected were extracted:
 -  According to the information provided, mean and standard deviation were respectively identified by including the labels "mean()" and "std()" in the name of variables.
 - These vectors were excluded as they are only used on the angle() variable:    
