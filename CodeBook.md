@@ -1,5 +1,3 @@
-CodeBook.md
-
 ###### for merging
 The columns activity and subject_id where added (binded) to their respective dataset (test and data) 
 from the files:
