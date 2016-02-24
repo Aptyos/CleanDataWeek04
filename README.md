@@ -34,8 +34,7 @@ Week04 Assignment of the Data Cleaning course
 
 ####  Download the files to a chosen directory
 ==============================================
-      download the Dataset.zip_ file from: 
-         https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+[download the Dataset.zip_ file from:](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
 ####  Execution of the script "run_analysis.R"  in RStudio or RGui  
