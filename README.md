@@ -37,8 +37,7 @@ the initial datasets were obtained by downloading the file:
 [Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
-####  Execution of the script "run_analysis.R"  in RStudio or RGui  
-============================================================
+####  Execution of the script "run_analysis.R"  in RStudio or RGui 
    with the folloinwg commands:
        - set the session to the current directory:
        setwd("C:/Coursera/03_dataCleaning/week04/CoursePjt/gitResults")
@@ -56,13 +55,11 @@ the initial datasets were obtained by downloading the file:
 
 
 ####  each record is a 8-variable vector with. 
-=============================================
-	 an activity label, 
-         an identifier of the subject who carried out the experiment
-         66 time and frequency domain variables restricted to mean and standard deviation
+	- an activity label, 
+        - an identifier of the subject who carried out the experiment
+        - 66 time and frequency domain variables restricted to mean and standard deviation
 
 #### The following files are included:
-=====================================
 - 'README.txt'
 
 required files( and directories) to execute succesfully the script "run_analysis.R" :
